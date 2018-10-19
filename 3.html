@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Belajar Form Bootstrap</title>
+	<!-- link css bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- link css buatan sendiri -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Belajar Form</h1>
+			<p class="alert alert-warning"> 
+				<strong>Perhatian:</strong>Pastikan Anda mengisi Form ini
+			</p>
+		<form action="" method="post">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label>Nama</label>
+						<input type="text" name="nama" class="form-control" placeholder="Nama">
+					</div>
+					<div class="form-group">
+						<label>E-mail</label>
+						<input type="email" name="email" class="form-control" placeholder="E-Mail">
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="form-group">
+						<label>Username</label>
+						<input type="text" name="username" class="form-control" placeholder="Username">
+					</div>
+					<div class="form-group">
+						<label>Password</label>
+						<input type="password" name="password" class="form-control" placeholder="Password">
+					</div>
+				</div>
+				<div class="col-md-12 text-center">
+					<div class="form-group">
+						<button type="submit" class="btn btn-success btn-lg">Simpan Data</button>
+						<button type="reset" class="btn btn-default btn-lg">Reset</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>	
+</body>
+</html>
